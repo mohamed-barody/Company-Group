@@ -1,0 +1,35 @@
+$mainColor: #f00;
+
+/* Start Nav */
+.navbar {
+    background-color: #767676!important;
+    padding: 0!important;
+    .navbar-nav{
+    	margin-left: 310px;
+    	.nav-item{
+    		font-size: 15px;
+    		margin-right: 18px;
+    		.active{
+	    		color: #fff!important;
+	    		font-weight: bold;
+	    	}
+    	}
+    	.nav-link{
+    		color: #dfdfdf!important;
+    		height: 60px;
+    		line-height: 45px;
+    		&:hover{
+    			border-bottom: 5px solid #0b6fbc;
+    		}
+    	}
+    }
+    i{
+    	height: 60px;
+    	line-height: 60px;
+   	 	width: 80px;
+    	text-align: center;
+    	background-color: #bbbbbb;
+    	color: #fff;
+    }
+}
+/* End Nav */
