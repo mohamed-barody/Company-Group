@@ -1,0 +1,29 @@
+/* Start Nav */
+.navbar {
+  background-color: #767676 !important;
+  padding: 0 !important; }
+  .navbar .navbar-nav {
+    margin-left: 310px; }
+    .navbar .navbar-nav .nav-item {
+      font-size: 15px;
+      margin-right: 18px; }
+      .navbar .navbar-nav .nav-item .active {
+        color: #fff !important;
+        font-weight: bold; }
+    .navbar .navbar-nav .nav-link {
+      color: #dfdfdf !important;
+      height: 60px;
+      line-height: 45px; }
+      .navbar .navbar-nav .nav-link:hover {
+        border-bottom: 5px solid #0b6fbc; }
+  .navbar i {
+    height: 60px;
+    line-height: 60px;
+    width: 80px;
+    text-align: center;
+    background-color: #bbbbbb;
+    color: #fff; }
+
+/* End Nav */
+
+/*# sourceMappingURL=style.css.map */
