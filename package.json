@@ -1,0 +1,23 @@
+{
+  "name": "company-group",
+  "version": "1.0.0",
+  "description": "Task To Quadrant Middle East",
+  "main": "index.html",
+  "author": "Mohamed Samy",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-livereload": "^3.8.1",
+    "jquery": "^3.3.1",
+    "sass": "^1.0.0-beta.5.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-ruby-sass": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
