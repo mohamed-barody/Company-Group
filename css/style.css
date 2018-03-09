@@ -1,5 +1,11 @@
 /* mY Frame-Work */
 /* extend classes */
+.tabs .hr nav ul .col-lg-6 li:hover {
+  -webkit-transition: all .6s ease-in-out;
+  -moz-transition: all .6s ease-in-out;
+  -o-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out; }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -82,8 +88,7 @@
     .tabs .hr .active {
       background-color: #e0e0e0;
       padding-top: 60px;
-      padding-bottom: 60px;
-      display: block; }
+      padding-bottom: 60px; }
       .tabs .hr .active .country-info h1 {
         color: #27699b;
         font-family: "Oswald", sans-serif;
