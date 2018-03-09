@@ -4,10 +4,10 @@ $mainFont: 'Oswald', sans-serif;
 
 /* extend classes */
 %transition{
-    -webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    transition: all .1s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
 }
 *{
   -webkit-box-sizing: border-box;
@@ -100,6 +100,7 @@ $mainFont: 'Oswald', sans-serif;
 						&:hover{
 							background-color: #e0e0e0;
 							cursor: pointer;
+							@extend %transition;
 						}
 						img{
 							width: 100px;
@@ -116,7 +117,6 @@ $mainFont: 'Oswald', sans-serif;
 			background-color: #e0e0e0;
 			padding-top: 60px;
 			padding-bottom: 60px;
-			display: block;
 			.country-info{
 				h1{
 					color: $mainColor;
