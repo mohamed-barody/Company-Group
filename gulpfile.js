@@ -11,7 +11,7 @@ function errorLog(error) {
 }
 
 // Scripts Task
-// Uglifies
+// Scripts Uglifies
 gulp.task('scripts', function() {
 	gulp.src('js/*.js')
 	.pipe(uglify())
@@ -33,7 +33,7 @@ gulp.task('styles', function() {
 });
 
 // Images Task
-// Compress
+// Compress Images
 gulp.task('image', function() {
 	gulp.src('img/*')
 	.pipe(imagemin())
@@ -41,7 +41,7 @@ gulp.task('image', function() {
 });
 
 // Watch Task
-// Watches files
+// Watch files
 gulp.task('watch', function() {
 
 	gulp.watch('js/*.js', ['scripts']);

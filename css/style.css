@@ -163,7 +163,7 @@
           float: left;
           margin-right: 10px; }
       .footer .contact .social h6 {
-        color: #434242;
+        color: #e2e2e2;
         padding-left: 15px;
         padding-top: 15px;
         clear: both; }
@@ -186,5 +186,44 @@
         margin-left: 100px; }
 
 /* End Footer */
+/* Start Media */
+/* Smart Phones And Tablets */
+@media (max-width: 767px) {
+  .footer .contact .social {
+    margin-bottom: 20px; }
+
+  .footer .contact .offices {
+    padding-left: 30px; }
+
+  .footer .contact .offices ul li {
+    margin-right: 12px;
+    font-size: 12px;
+    font-weight: bold; } }
+/* Small Screen */
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer .contact .social {
+    margin-bottom: 20px; }
+
+  .footer .contact .offices {
+    padding-left: 30px; }
+
+  .footer .contact .offices ul li {
+    margin-right: 15px; } }
+/*  Medium Screen */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .tabs .hr nav ul .col-lg-6 li img {
+    width: 92px; }
+
+  .tabs .hr nav ul .col-lg-6 li .info {
+    font-weight: bold;
+    font-size: 15px; }
+
+  .tabs .hr nav ul {
+    margin-bottom: 0px; }
+
+  .footer .contact .offices ul li a {
+    font-size: 12px;
+    font-weight: 500; } }
+/* End Media */
 
 /*# sourceMappingURL=style.css.map */

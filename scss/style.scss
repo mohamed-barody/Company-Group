@@ -1,6 +1,7 @@
 /* mY Frame-Work */
 $mainColor:  #27699b;
 $mainFont: 'Oswald', sans-serif;
+$mainBackgroundColor: #ececec;
 
 /* extend classes */
 %transition{
@@ -53,7 +54,7 @@ $mainFont: 'Oswald', sans-serif;
 /* End Nav */
 /* Start Company Group */
 .com-group{
-	background-color: #ececec;
+	background-color: $mainBackgroundColor;
 	padding-top: 40px;
 	padding-bottom: 60px;
 	.title{
@@ -84,7 +85,7 @@ $mainFont: 'Oswald', sans-serif;
 /* END Company Group */
 /* Start Flags Tap */
 .tabs{
-	background-color: #ececec;
+	background-color: $mainBackgroundColor;
 	.hr{
 		border-top: 1px solid #707070;
 		nav{
@@ -174,7 +175,7 @@ $mainFont: 'Oswald', sans-serif;
 /* Start herizontal-line */
 .herizontal-line{
 	padding-top: 40px;
-	background-color: #ececec;
+	background-color: $mainBackgroundColor;
 	.line{
 		width: 100%;
 		height: 20px;
@@ -209,7 +210,7 @@ $mainFont: 'Oswald', sans-serif;
 				}
 			}
 			h6{
-				color: #434242;
+				color: #e2e2e2;
 				padding-left: 15px;
 				padding-top: 15px;
 				clear: both;
@@ -246,4 +247,53 @@ $mainFont: 'Oswald', sans-serif;
 	}
 }
 /* End Footer */
+/* Start Media */
+/* Smart Phones And Tablets */
+@media (max-width: 767px)
+{ 
+	.footer .contact .social {
+	    margin-bottom: 20px;
+	}
+	.footer .contact .offices {
+	    padding-left: 30px;
+	}
+	.footer .contact .offices ul li {
+	    margin-right: 12px;
+	    font-size: 12px;
+	    font-weight: bold;
+	}
+}
+/* Small Screen */ 
+@media (min-width: 768px) and (max-width: 991px)
+{
+   .footer .contact .social {
+	    margin-bottom: 20px;
+	}
+	.footer .contact .offices {
+	    padding-left: 30px;
+	}
+	.footer .contact .offices ul li {
+	    margin-right: 15px;
+	}
+}
+/*  Medium Screen */ 
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	.tabs .hr nav ul .col-lg-6 li img {
+	    width: 92px;
+	}
+	.tabs .hr nav ul .col-lg-6 li .info {
+	    font-weight: bold;
+	    font-size: 15px;
+	}
+	.tabs .hr nav ul {
+	    margin-bottom: 0px;
+	}
+	.footer .contact .offices ul li a {
+	    font-size: 12px;
+	    font-weight: 500;
+	}
+
+}
+/* End Media */
 
